@@ -1,10 +1,11 @@
 "use client";
 
 import UserCard from "@/components/UserCard";
+import { API_BASE } from "@/lib/apiBase";
 import {useEffect, useState} from "react";
 
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:3001";
+const BASE_URL = `${API_BASE}`;
 
 
 type Counts = {

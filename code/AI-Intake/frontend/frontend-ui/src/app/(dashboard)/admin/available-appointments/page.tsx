@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import MiniMonthCalendar from "@/components/calendar/MiniMonthCalendar";
+import { API_BASE } from "@/lib/apiBase";
 
 type Slot = {
   id: number;
@@ -9,7 +10,7 @@ type Slot = {
   slot_duration: number;
 };
 
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = `${API_BASE}`;
 
 function toYYYYMMDD(d: Date) {
   return d.toISOString().split("T")[0];

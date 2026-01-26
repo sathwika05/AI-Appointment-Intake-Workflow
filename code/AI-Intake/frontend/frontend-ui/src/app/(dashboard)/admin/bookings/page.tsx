@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import DayCalendar, { BookedWithPatient } from "@/components/calendar/DayCalendar";
+import { API_BASE } from "@/lib/apiBase";
 
 function localDateYYYYMMDD(d: Date) {
   const y = d.getFullYear();
@@ -24,7 +25,7 @@ export default function BookingsPage() {
       try {
       
         const res = await fetch(
-          `http://localhost:3001/ai-intake/appointments/booked?date=${date}`,
+          `${API_BASE}/ai-intake/appointments/booked?date=${date}`,
         );
 
         if (!res.ok) throw new Error(`HTTP ${res.status}`);

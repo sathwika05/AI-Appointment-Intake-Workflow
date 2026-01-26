@@ -4,8 +4,9 @@ import { useEffect, useState } from "react";
 import AppointmentTable, {
   IntakeRow,
 } from "@/components/appointment-table";
+import { API_BASE } from "@/lib/apiBase";
 
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = `${API_BASE}`;
 
 const NextDayAppointments = () => {
   const [rows, setRows] = useState<IntakeRow[]>([]);
