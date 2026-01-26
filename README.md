@@ -57,4 +57,4 @@ An MVP demonstrating an intake-first healthcare workflow: a unified next-day int
 
 ## Live Demo
 
-📺 [Watch the workflow demo](https://drive.google.com/file/d/1p8KRahrXPo6V03j6xKLe58-rk50uh9ww/view?usp=sharing)
+📺 [Watch the workflow demo](https://drive.google.com/file/d/1UjLqYwJbXgj3JHXABF7VZWeIBqp6_R4G/view?usp=sharing)
