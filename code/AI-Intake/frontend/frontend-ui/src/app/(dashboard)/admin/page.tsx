@@ -4,7 +4,8 @@ import UserCard from "@/components/UserCard";
 import {useEffect, useState} from "react";
 
 
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:3001/ai-intake";
+
 
 type Counts = {
   patients: number;
