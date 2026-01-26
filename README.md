@@ -51,7 +51,7 @@ An MVP demonstrating an intake-first healthcare workflow: a unified next-day int
 
 ## Preview
 
-![Intake Workflow Preview](Screenshots/intake-workflow-preview.png)
+![Intake Workflow Preview](Screenshots/ai-intake-preview.png)
 
 ---
 
